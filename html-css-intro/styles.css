@@ -1,0 +1,54 @@
+/* BASE STYLES */
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin-bottom: 8px;
+
+  font-family: sans-serif;
+}
+
+/* UTILITY STYLES */
+
+.bg-lt-amber {
+  background-color: #ffffe5;
+}
+
+.bg-md-amber {
+  background-color: #ffe082;
+}
+
+.light-shadow {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.heavy-shadow {
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.8);
+}
+
+/* LAYOUT STYLES */
+
+.center-wrapper {
+}
+
+/* MAIN STYLES */
+
+.main-image {
+}
+
+.page {
+  /* Box Model */
+  width: 350px;
+  min-height: 450px;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  /* Borders & Colors */
+  border: 2px solid #000;
+
+  /* Text Styles */
+  font-family: sans-serif;
+  font-size: 11px;
+}
