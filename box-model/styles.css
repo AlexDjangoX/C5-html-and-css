@@ -1,0 +1,48 @@
+/* RESET STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+/* BASE STYLES */
+
+.dark-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.blue-box,
+.pink-box {
+  margin: 32px;
+
+  font-size: 32px;
+  color: white;
+}
+
+.blue-box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+
+  background-color: #363aeb;
+  border: 10px solid #f71568;
+}
+
+.pink-box {
+  width: 300px;
+  height: 200px;
+
+  padding: 80px 60px 100px 20px;
+
+  background-color: #f71568;
+  border: 10px solid #363aeb;
+}
+
+.top,
+.middle,
+.bottom {
+  height: 60px;
+}
+
+.card .top {
+  background-color: green;
+}
