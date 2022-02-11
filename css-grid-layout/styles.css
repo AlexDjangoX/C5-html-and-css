@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.pad-lg {
+  padding: 16px;
+}
+
+/* LAYOUT STYLES */
+
+.main-layout {
+  /* For single-page applications ie. Discord */
+  /* height: 100vh; */
+
+  /* For content-based websites ie. Tech Radar */
+  min-height: 100vh;
+
+  display: grid;
+  grid-template:
+    "header header header" 96px
+    "left-menu main right-menu" 1fr
+    "footer footer footer" 96px /
+    250px 1fr 150px;
+}
+
+/* MAIN STYLES */
+
+.main-header {
+  grid-area: header;
+
+  background-color: yellow;
+}
+
+.left-menu {
+  grid-area: left-menu;
+
+  background-color: tomato;
+}
+
+main {
+  grid-area: main;
+
+  background-color: violet;
+}
+
+.right-menu {
+  grid-area: right-menu;
+
+  background-color: slateblue;
+}
+
+.main-footer {
+  grid-area: footer;
+
+  background-color: steelblue;
+}
