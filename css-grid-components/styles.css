@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+h2,
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* LAYOUT STYLES */
+
+.icon-sm {
+  width: 18px;
+  height: 18px;
+
+  border: 2px dashed green;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+
+  border: 2px dashed green;
+}
+
+.two-column-grid__expand-one {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.two-column-grid__expand-two {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.align-items__center {
+  align-items: center;
+}
+
+.gap-md {
+  gap: 16px;
+}
