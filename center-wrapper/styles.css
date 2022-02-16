@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* LAYOUT STYLES */
+
+.three-colum-grid__exapnd-two {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.grid-auto__column {
+  display: grid;
+  grid-auto-flow: column;
+
+  gap: 2px;
+}
+
+.center-wrapper {
+  max-width: 600px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+/* MAIN STYLES */
+
+.main-header {
+  padding: 8px;
+
+  background-color: antiquewhite;
+}
+
+.logo,
+.icons-list > li {
+  width: 40px;
+  height: 40px;
+
+  border: 2px dashed lightblue;
+  background-color: white;
+}
+
+.icons-list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
